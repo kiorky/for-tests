@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  testep:
+    build: {context: '.'}
+    command: echo 1 2 3
+    entrypoint: 
+    - sh
+    - '-c'
+    - 'echo wrapper && /ep.sh'
