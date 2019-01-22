@@ -1,5 +1,5 @@
 Even with using entrypoint+command in the exec form (list) cf [this doc](https://docs.docker.com/engine/reference/builder/#understand-how-cmd-and-entrypoint-interact),
-It s not possible to both override an image entrypoint, and its CMD (entry point args) via cli...
+It s not possible to both override an image entrypoint, and its CMD (entry point args) via cli.
 
 no overrides, everything works
 ```
